@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Oxygen:wght@300;400;700&family=Pacifico&display=swap');
+ body {
+    height: 100%;
+    font-family: "Source Serif 4", serif;
+ height: auto;
+ background-color: #eee 
+}
+.header {
+  background-color: rgb(255, 164, 179);
+  display: flex;
+  justify-content: space-evenly;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  opacity: 0.9;
+}
+header h1{
+  color:white;
+  align-items: center;
+}
+.nav{
+  margin-top: 30px;
+  margin-left: 350px;
+  gap: 40px;
+  color: white;
+}
+ion-icon {
+  font-size: 30px;
+  color:white;
+}
+.nav{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.nav a:hover{
+  transform:scale(1.2) ;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+  }
+ 
+.navbar2 {
+ margin-top: 25px;
+ display: flex;
+ justify-content: space-evenly;
+ gap: 10px;
+}
+.navbar2 a {
+padding:6px;
+color: white;
+text-decoration:none
+ }
+.navbar2 a:hover{
+transform:scale(1.2) ;
+transition-timing-function: ease-in-out;
+transition-duration: 500ms;
+}
+.container{
+  background-color: pink;
+  width:100;
+  height: 450px;
+  padding-bottom: 15px;
+}
+.container h2{
+  margin-left: 38%;
+  color: white;
+}
+.container2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box{
+  background-color: rgb(246, 234, 234);
+  width: 300px;
+  height: 350px;
+  margin-left: 25px;
+  border-radius: 10px;
+  padding-bottom: 35px;
+  box-shadow: 6px 10px 7px rgb(110, 109, 109);
+}
+.box:hover{
+  transform:scale(1.1) ;
+transition-timing-function: ease-in-out;
+transition-duration: 2,2s;
+}
+.container img{
+  width: 250px;
+  height: 250px;
+  margin-left: 28px;
+  margin-top: 19px;
+  border-radius: 10px;
+}
+.box p{
+  margin-left: 45px;
+  font-size: 20px;
+  margin-bottom: 30% 
+}
+
+.soz1{
+  font-family: "DM Serif Text", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  color: #e30d78;
+  margin-top: 100px;
+  margin-left: 25px;
+}
+.soz2{
+  margin-left:25px ;
+  margin-bottom: 20px;
+  color:#e30d78;
+  font-size: 20px;
+}
+footer{
+  background-color: pink;
+  margin-top: 30px;
+  border-radius: 12px;
+  padding: 20px;
+}
+.footer1 p{
+  color: black;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.footer2 a:hover{
+  transform:scale(1.2) ;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+}
+.footer1{
+  display: flex;
+  justify-content: space-around;
+}
+.footer1 a{
+  color: black;
+}
+.footer2{
+  margin-top: 35px;
+}
+.footer2 ion-icon{
+  color: black;
+}
